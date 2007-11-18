@@ -1,17 +1,16 @@
 Summary:	Icon theme Rodent for the Xfce Desktop
-Name:		xfce-icon-theme
-Version: 	4.4.1
-Release:	%mkrel 3
+Name:		xfce4-icon-theme
+Version: 	4.4.2
+Release:	%mkrel 1
 License:	BSD
 Group:		Graphical desktop/Xfce
 URL:		http://www.xfce.org
 Source0: 	xfce4-icon-theme-%{version}.tar.bz2
-Requires:	xfce-panel >= 4.2.0
-BuildRequires:	xfce-panel-devel >= 4.2.0
+Requires:	xfce-panel >= %{version}
+BuildRequires:	xfce-panel-devel >= %{version}
 BuildRequires:	perl(XML::Parser)
 BuildArch:	noarch
-Obsoletes:	xfce-themes
-Provides:	xfce-themes
+Obsoletes:	xfce-icon-theme
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
@@ -24,7 +23,7 @@ Included:
   manager, for the time being)
  
 %prep 
-%setup -qn xfce4-icon-theme-%{version}
+%setup -q
 
 %build
 
@@ -50,7 +49,7 @@ rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root)
-%doc README ChangeLog COPYING AUTHORS
+%doc README ChangeLog AUTHORS
 %dir %{_iconsdir}/Rodent/
 %{_iconsdir}/Rodent/*/
 %{_datadir}/xfce4/mime/*
