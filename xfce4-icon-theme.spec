@@ -6,8 +6,8 @@ License:	BSD
 Group:		Graphical desktop/Xfce
 URL:		http://www.xfce.org
 Source0: 	xfce4-icon-theme-%{version}.tar.bz2
-Requires:	xfce-panel >= %{version}
-BuildRequires:	xfce-panel-devel >= %{version}
+Requires:	xfce4-panel >= %{version}
+BuildRequires:	xfce4-panel-devel >= %{version}
 BuildRequires:	perl(XML::Parser)
 BuildArch:	noarch
 Obsoletes:	xfce-icon-theme
