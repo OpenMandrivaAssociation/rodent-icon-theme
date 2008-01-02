@@ -12,6 +12,7 @@ BuildRequires:	perl(XML::Parser)
 BuildArch:	noarch
 Obsoletes:	xfce-icon-theme
 Provides:   xfce-icon-theme
+BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 Icon theme Rodent for the Xfce Desktop Environment.
