@@ -42,11 +42,8 @@ rm -f %{buildroot}%{_libdir}/pkgconfig/xfce4-icon-theme-1.0.pc
 %files
 %doc README ChangeLog AUTHORS
 %dir %{_iconsdir}/Rodent/
-%{_iconsdir}/Rodent/48x48
 %{_iconsdir}/Rodent/scalable
-%{_iconsdir}/Rodent/iconrc*
 %{_iconsdir}/Rodent/index.theme
-%{_datadir}/xfce4/mime/*
 %ghost %{_iconsdir}/Rodent/icon-theme.cache
 
 
