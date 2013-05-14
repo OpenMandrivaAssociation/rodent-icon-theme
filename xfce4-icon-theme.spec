@@ -8,7 +8,6 @@ URL:		http://www.xfce.org
 Source0:	http://sourceforge.net/projects/xffm/files/%{name}/%{name}-%{version}.tar.gz
 BuildRequires:	pkgconfig(libxfce4panel-1.0)
 BuildRequires:	perl(XML::Parser)
-Requires:	xfce4-panel >= %{version}
 BuildArch:	noarch
 Obsoletes:	xfce4-icon-theme <= 4.4.3-6
 Provides:	xfce4-icon-theme = 4.4.3-7
