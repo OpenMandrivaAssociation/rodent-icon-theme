@@ -1,7 +1,7 @@
 Summary:	Icon theme Rodent for the Xfce Desktop
 Name:		rodent-icon-theme
 Version:	5.0
-Release:	3
+Release:	4
 License:	BSD
 Group:		Graphical desktop/Xfce
 URL:		http://www.xfce.org
