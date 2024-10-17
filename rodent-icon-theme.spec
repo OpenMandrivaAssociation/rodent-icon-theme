@@ -4,7 +4,7 @@ Version:	5.0
 Release:	4
 License:	BSD
 Group:		Graphical desktop/Xfce
-URL:		http://www.xfce.org
+URL:		https://www.xfce.org
 Source0:	http://sourceforge.net/projects/xffm/files/%{name}/%{name}-%{version}.tar.gz
 BuildRequires:	pkgconfig(libxfce4panel-1.0)
 BuildRequires:	perl(XML::Parser)
