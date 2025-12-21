@@ -6,6 +6,11 @@ License:	BSD
 Group:		Graphical desktop/Xfce
 URL:		https://www.xfce.org
 Source0:	http://sourceforge.net/projects/xffm/files/%{name}/%{name}-%{version}.tar.gz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(libxfce4panel-1.0)
 BuildRequires:	perl(XML::Parser)
 BuildArch:	noarch
